@@ -4,14 +4,12 @@ Mac 好应用，常用常新。基于 Homebrew Cask 的 macOS 应用发现与管
 
 此仓库仅用于二进制发布、使用说明与问题反馈，不包含应用源码。
 
-> 发布准备中：v0.5.0 安装包尚未上传，下载与 Homebrew 安装暂不可用。
-
 ## 下载与安装
 
 当前版本 0.5.0，支持 macOS 14+、Apple Silicon（不支持 Intel）。
 从 [Releases](https://github.com/drugnotes/MacNest/releases) 下载 `MacNest-0.5.0-arm64.zip`，解压后拖入应用程序目录。
 
-发布完成后可通过 Homebrew 安装：
+通过 Homebrew 安装：
 
 ```sh
 brew tap drugnotes/tap
