@@ -13,6 +13,7 @@ Mac 好应用，常用常新。基于 Homebrew Cask 的 macOS 应用发现与管
 
 ```sh
 brew tap drugnotes/tap
+brew trust --cask drugnotes/tap/macnest
 brew install --cask drugnotes/tap/macnest
 ```
 
@@ -32,3 +33,5 @@ GitHub 自动生成的 Source code 压缩包只包含本公开仓库的说明文
 
 应用闭源分发，此仓库未授予应用源码或二进制的开源许可。
 Homebrew 是独立项目，本应用并非其官方客户端。
+
+Homebrew 新版本需要显式信任第三方 Cask；上述 trust 命令仅信任 MacNest。旧版本若不识别 `brew trust`，请先执行 `brew update` 更新 Homebrew。
