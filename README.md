@@ -15,13 +15,31 @@ Mac 好应用，常用常新。原生 macOS 应用发现与管理工具，基于
 
 0.6.0 已使用 Developer ID 签名并通过 Apple 公证，发布包已通过严格签名、公证票据与 Gatekeeper 检查。
 
-将两个附件下载到同一目录，在终端执行：
+## 安装：四步完成
+
+1. [下载 MacNest 安装包](https://github.com/drugnotes/MacNest/releases/download/v0.6.0/MacNest-0.6.0-universal.zip)。
+2. 双击 ZIP 文件解压。
+3. 将 **MacNest.app** 拖入 **“应用程序”** 文件夹。
+4. 在“应用程序”中打开 **MacNest（麦集）**。
+
+**安装无需终端命令。** 如果已有旧版，请先等待任务结束并退出旧版，再替换应用。
+
+浏览应用无需预先安装 Homebrew；安装、更新和管理应用时需要 Homebrew，麦集会显示相应提示。
+
+<details>
+<summary>可选：验证下载文件完整性</summary>
+
+普通安装可以跳过此步骤。若要检查下载是否完整，可额外下载 [SHA256SUMS.txt](https://github.com/drugnotes/MacNest/releases/download/v0.6.0/SHA256SUMS.txt)，与 ZIP 放在同一文件夹，在该文件夹的终端执行：
 
 ```sh
 shasum -a 256 -c SHA256SUMS.txt
 ```
 
-解压 ZIP，将 MacNest.app 拖入“应用程序”。替换旧副本前请等待应用任务结束并退出。GitHub 自动生成的 Source code 归档不是应用安装包。
+显示 `MacNest-0.6.0-universal.zip: OK` 表示校验通过。
+
+</details>
+
+GitHub 自动生成的 Source code 归档不是应用安装包，请下载上面的 ZIP。
 
 ## 功能
 
